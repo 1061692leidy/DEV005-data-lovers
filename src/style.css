@@ -1,0 +1,99 @@
+html{
+    background-image: url(https://images.alphacoders.com/876/thumb-1920-876589.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+  
+  }
+  
+  .titulo img {
+      width: 600px;
+      height: 200px;
+      margin:auto;
+      object-fit: scale-down;
+      display: block;
+      position: relative;
+  }
+  
+  .nav{
+    position: relative;
+    margin:auto;
+  }
+  
+  #personajes, #especies, #select_status{
+    color:black;
+    background-color: rgb(253, 253, 165);
+    padding: auto;
+    font-size: 25px;
+    font-family:Gill sans MT;
+    border-radius: 10px;
+    box-shadow: yellowgreen;
+    box-shadow: 0 8px 16px 0 rgb(235, 252, 1), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-inline-start: 40px;
+    margin-top: 10px;
+  }
+  
+  option{
+    background-color: aqua;
+    color:rgb(0, 0, 0);
+    padding:auto;
+  }
+  
+  #contenedor-general{
+      display: flex;
+      justify-content: center;
+      padding: 15px 25px;
+      flex-wrap: wrap;
+      gap: 6%;
+      z-index: 1;
+    }
+  
+    .personajesImagenes{
+      color:white;
+      font-size: 25px;
+      font-family:Gill sans MT;
+      margin: auto ;
+      border-radius: 10px;
+    }
+  
+    #texto{
+      color:black;
+      padding: auto;
+      background-color:rgba(255, 255, 255, 0.788);
+      font-size: 25px;
+      font-family:Gill sans MT;
+      border-radius: 10px;
+      box-shadow: 0 8px 16px 0 rgb(235, 252, 1), 0 6px 20px 0 rgba(0,0,0,0.19); 
+      margin-inline-start: 40px;
+      margin-top: 10px;
+    }
+  
+    #btnbuscar{
+      color:black;
+      padding: auto;
+      background-color:rgb(253, 253, 165);
+      font-size: 25px;
+      font-family:Gill sans MT;
+      border-radius: 10px;
+      box-shadow: 0 8px 16px 0 rgb(235, 252, 1), 0 6px 20px 0 rgba(0,0,0,0.19);
+      margin-inline-start: 10px;
+      margin-top: 10px;
+    }
+  
+    .contenedor_informacion{
+      display: flex;
+      justify-content: left;
+      padding: 15px 25px;
+      flex-wrap: wrap;
+      gap: 6%;
+      z-index: 1;
+      background-color: beige;
+    }
+    .infoIng{
+      color:black;
+      padding: auto;
+      background-color:rgb(253, 253, 165);
+      font-size: 25px;
+      font-family:Gill sans MT;
+      border-radius: 10px;
+    }
