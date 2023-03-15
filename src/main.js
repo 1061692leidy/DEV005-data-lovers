@@ -59,7 +59,7 @@ traerSelector.addEventListener('click', ()=> {
     const filtrarEpisodio= episodios(dataCompleta,captarCambio)
     pintar(filtrarEpisodio);
     console.log(filtrarEpisodio)
-}
+  }
 })
 
 const buscador=document.getElementById('texto');
