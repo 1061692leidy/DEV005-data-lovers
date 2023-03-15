@@ -54,5 +54,10 @@ export const traerBuscado= (data, param) => {
   const encontradosporNombre = data.filter(personaje=> personaje.name.toLowerCase().indexOf(param) !== -1);
   return encontradosporNombre;
 }
+export const status= (data,param)=>{
+  const traerStatus = data.filter(data => data.status === param);
+console.log(traerStatus);
+return traerStatus
+}
 
 

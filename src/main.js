@@ -1,4 +1,4 @@
-import { personajesPrincipales  ,ordenAlfabetico, imagenesordenadasAlreves , filtrarEspecies, traerBuscado, episodios} from './data.js';
+import { personajesPrincipales  ,ordenAlfabetico, imagenesordenadasAlreves , filtrarEspecies, traerBuscado, status} from './data.js';
 // import data from './data/lol/lol.js';
 //import data from './data/pokemon/pokemon.js';
 import data from './data/rickandmorty/rickandmorty.js';
@@ -56,7 +56,7 @@ const traerSelector= document.getElementById('select_status')
 traerSelector.addEventListener('click', ()=> { 
   const captarCambio= document.getElementById('select_status').value;
   if(captarCambio === captarCambio){
-    const filtrarEpisodio= episodios(dataCompleta,captarCambio)
+    const filtrarEpisodio= status(dataCompleta,captarCambio)
     pintar(filtrarEpisodio);
     console.log(filtrarEpisodio)
   }
